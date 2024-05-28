@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url(/Pattern.webp);
+    background-color: #FFC700;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+h2 {
+    color: black;
+    text-shadow: 1vw 1vw 1vw grey;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7vw;
+    background-color: white;
+    border-radius: 20%;
+    width: 120%;
+}
+.vowels-consonants {
+    text-align: center;
+    order: -1;
+    font-size: 5vw;
+    margin-top: 15vw;
+    margin-left: vw;
+}
+p {
+    background-color: blue;
+    color: white;
+    font-weight: 550;
+    font-size: 5.5vw;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+#letters {
+    background-color: red;
+    color: white;
+    border-radius: 10vw;
+    width: 26vw;
+    height: auto;
+    font-size: 5vw;
+    margin-left: -75vw;
+}
+#clear {
+    background-color: red;
+    color: white;
+    border-radius: 10vw;
+    width: 26vw;
+    height: auto;
+    font-size: 5vw;
+    margin-top: 115vw;
+}
+.typing {
+   color: black;
+   font-weight: bold;
+   font-size: 5vw;
+   margin-top: 30vw;
+   margin-left: -45vw;
+
+}
+textarea {
+    width: 49vw;
+    height: 30vw;
+    font-size: 5vw;
+}
